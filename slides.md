@@ -12,8 +12,6 @@ transition: slide-left
 
 A non-technical introduction to Vue.js and a personal essay about why you should use it.
 
-<!-- Queste sono delle note della slide. -->
-
 ---
 transition: slide-up
 ---
@@ -98,10 +96,37 @@ A set of tools & utilities (with batteries included).
 - 📝 **JavaScript**:  
 The programming language used to develop the Web.
 
-- ♾️ **Progressive**:  
+- ♾️ <strong class="progressive">Progressive</strong>:  
 You can adopt it gradually in your projects.
 
 </v-clicks>
+
+<style>
+    .progressive
+    {
+        background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
+        background-clip: text;
+        font-family: "Inter var experimental",
+                     "Inter var",
+                     Inter,
+                     -apple-system,
+                     BlinkMacSystemFont,
+                     "Segoe UI",
+                     Roboto,
+                     Oxygen,
+                     Ubuntu,
+                     Cantarell,
+                     "Fira Sans",
+                     "Droid Sans",
+                     "Helvetica Neue",
+                     sans-serif;
+
+        font-weight: 900;
+        opacity: 1;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+</style>
 
 ---
 layout: cover
@@ -125,9 +150,10 @@ From the "**Framework**" side
 
 <v-clicks>
 
+- It's ready-to-use.
 - It's easy.
 - It's fast.
-- It's ready-to-use.
+- It's fast (x2).
 
 </v-clicks>
 
@@ -153,10 +179,11 @@ It runs everywhere:
 - Laptops
 - Tablets
 - Smartphones
+- Embedded systems
 - TVs
+- Infotainments
 - Interactive Kiosks
 - LED walls
-- Refrigerators
 
 </v-clicks>
 
@@ -184,6 +211,37 @@ From the "**Progressive**" side
 - Grows as you go.
 
 </v-clicks>
+
+<style>
+    h1 + p
+    {
+        color: #7F7F7F;
+        opacity: 1;
+    }
+    h1 + p > strong
+    {
+        background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
+        background-clip: text;
+        font-family: "Inter var experimental",
+                     "Inter var",
+                     Inter,
+                     -apple-system,
+                     BlinkMacSystemFont,
+                     "Segoe UI",
+                     Roboto,
+                     Oxygen,
+                     Ubuntu,
+                     Cantarell,
+                     "Fira Sans",
+                     "Droid Sans",
+                     "Helvetica Neue",
+                     sans-serif;
+
+        font-weight: 900;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+</style>
 
 ---
 layout: cover
