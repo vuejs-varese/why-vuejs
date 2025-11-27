@@ -12,6 +12,8 @@ transition: slide-left
 
 A non-technical introduction to Vue.js and a personal essay about why you should use it.
 
+<!-- Queste sono delle note della slide. -->
+
 ---
 transition: slide-up
 ---
@@ -19,8 +21,6 @@ transition: slide-up
 # Agenda
 
 For those who are actually curious about what the next 15 minutes hold
-
-<!-- - 🧑‍💻 **Who am I?** -->
 
 <v-clicks>
 
@@ -32,17 +32,54 @@ For those who are actually curious about what the next 15 minutes hold
 </v-clicks>
 
 ---
-src: ./pages/who-am-i.md
-hide: true
----
-
----
 layout: cover
 ---
 
 # What is Vue.js?
 
 The **Progressive** JavaScript Framework
+
+<VueLogo />
+
+<style>
+    h1 + p
+    {
+        color: #5c5f62;
+        font-family: "Inter var experimental",
+                     "Inter var",
+                     Inter,
+                     -apple-system,
+                     BlinkMacSystemFont,
+                     "Segoe UI",
+                     Roboto,
+                     Oxygen,
+                     Ubuntu,
+                     Cantarell,
+                     "Fira Sans",
+                     "Droid Sans",
+                     "Helvetica Neue",
+                     sans-serif;
+
+        font-size: 28px;
+        font-weight: 900;
+        opacity: 1;
+    }
+    h1 + p > strong
+    {
+        background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
+        background-clip: text;
+        font-weight: 900;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .vue-logo
+    {
+        position: absolute;
+        right: 133px;
+        top: 133px;
+    }
+</style>
 
 ---
 transition: slide-up
@@ -254,7 +291,7 @@ Can you already answer by yourself?
 
 ---
 layout: cover
-background: https://cdn.jsdelivr.net/gh/slidevjs/slidev-covers@main/static/mYBMP8pW4uQ.webp
+background: https://cdn.jsdelivr.net/gh/slidevjs/slidev-covers@main/static/3XXSKa4jKaM.webp
 class: text-center
 ---
 
