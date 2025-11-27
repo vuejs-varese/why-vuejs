@@ -1,11 +1,23 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Why Vue.js?
 
-To start the slide show:
+A non-technical introduction to Vue.js and why you should use it.
 
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
+## Prerequisites
 
-Edit the [slides.md](./slides.md) to see the changes.
+Make sure to have [**Bun**](https://bun.com/) installed on your system.
 
-Learn more about Slidev at the [documentation](https://sli.dev/).
+## Project Setup
+
+```sh
+bun install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+bun run dev
+```
+
+## Documentation
+
+Learn more about Slidev on https://sli.dev/.
