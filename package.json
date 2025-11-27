@@ -1,0 +1,56 @@
+{
+  "name": "@vuejs-varese/why-vuejs",
+  "version": "1.0.0",
+  "description": "A non-technical introduction to Vue.js and why you should use it.",
+  "keywords": [
+    "Vue.js",
+    "Varese",
+    "Vite.js",
+    "Slidev",
+    "TypeScript",
+    "Community",
+    "Presentation",
+    "Introduction",
+    "Overview"
+  ],
+  "homepage": "https://github.com/vuejs-varese/why-vuejs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs-varese/why-vuejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vuejs-varese/why-vuejs/issues"
+  },
+  "author": {
+    "name": "Matteo Bilotta",
+    "email": "me@byloth.dev",
+    "url": "https://www.byloth.dev/"
+  },
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export",
+    "typecheck": "vue-tsc --build --force",
+    "lint": "eslint .",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.9.1",
+    "@slidev/theme-default": "^0.25.0",
+    "vue": "^3.5.24"
+  },
+  "devDependencies": {
+    "@byloth/eslint-config-nuxt": "^3.2.2",
+    "@eslint/compat": "^2.0.0",
+    "@types/node": "^22.19.1",
+    "@vitejs/plugin-vue": "^6.0.2",
+    "eslint": "^9.39.1",
+    "husky": "^9.1.7",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.4",
+    "vue-tsc": "^3.1.4"
+  },
+  "private": true
+}
